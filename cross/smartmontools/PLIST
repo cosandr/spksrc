@@ -1,0 +1,5 @@
+rsc:etc/smartd.conf
+bin:bin/smartctl
+bin:bin/smartd
+bin:bin/update-smart-drivedb
+rsc:share/drivedb.h

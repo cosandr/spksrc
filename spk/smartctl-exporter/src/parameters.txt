@@ -1,0 +1,17 @@
+# smartctl_exporter parameters
+# ------------------------
+#
+# Every line without a leading # is added as paramter to smartctl_exporter
+#
+# To list all available parameters call:
+# /var/packages/smartctl-exporter/target/bin/smartctl_exporter --help
+#
+# To activate changes in this file, you need to restart (i.e. stop and start)
+# smartctl-exporter service in the DSM Package Center.
+#
+# examples:
+# --smartctl.interval=60s
+# --smartctl.rescan=10m
+#
+--smartctl.path=/var/packages/smartctl-exporter/target/bin/smartctl
+--no-web.systemd-socket

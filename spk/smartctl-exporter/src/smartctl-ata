@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/var/packages/smartctl-exporter/target/bin/smartctl -d ata "$@"
